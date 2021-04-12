@@ -1,4 +1,4 @@
-ge = int(input("key your age"))
+age = int(input("key your age"))
 snack_price = 5 # snack price
 minor_price = 7 # under 18 years old entrance fare
 Adult_price = 12 # adult entrance fare
