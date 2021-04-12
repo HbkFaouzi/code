@@ -1,0 +1,15 @@
+ge = int(input("key your age"))
+snack_price = 5 # snack price
+minor_price = 7 # under 18 years old entrance fare
+Adult_price = 12 # adult entrance fare
+if age < 18:
+    total_price = minor_price
+else:
+    total_price = Adult_price
+snack = input("Would you like pop corn?")
+if snack == "yes":  # 1 for yes and 0 for not
+    total_price += snack_price
+else:
+    total_price = ticket_price
+
+print("Total cost = ", total_price)
